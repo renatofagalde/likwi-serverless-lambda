@@ -1,0 +1,76 @@
+rule:
+
+pronomes sempre no plural
+users
+
+Application Integration - Layer
+
+	API Gateway
+		- Publish
+		- maintain
+		- monitor and secure API
+
+	Step Functions
+		- Visual Workflow service
+		- Orchestrate Amazon Services
+		- Automate Business process
+		- Build event drive workflows;
+			Saga Design Patterns
+
+	SQS
+		- Simple Queue Service
+
+	SNS
+		- Simple notification service and is fully
+			managed messaging
+	EventBridge
+		- Serverless event bus and it makes it very
+			easy to build event driven applications
+	AppSync
+		-
+
+
+Logic Tier / Layer
+
+	API Gateway
+
+		Main feature -> central point of entry to our API
+		accepts a sheep requests and roused those requests
+		to destination services
+
+		** KeyManagement Service
+		** Secrets Manager
+
+		Cloudwatch Monitoring
+
+		Multiples API-Gateway
+		Deployed to different stages, like:
+			- Development
+			- Stage
+			- Production
+
+
+get code of repository and start -> cold start
+it does take sometime to create and to initialize a new
+execution enviroment, and sometimes it might take up to 10 seconds
+
+download your application code from the code repository
+
+and to full initialize it so that the handler can be called is
+call start, and consists of two components:
+	-1# AWS Lambda Cold start
+	-2 Code by developer = Code Initialization
+		- DB Connection
+		- Spring boot framework
+
+		wram start
+
+Pricing:
+	GB Second
+		-> The amount of memory you allocate to a function
+			- 512MB = 0.5GB
+
+		-> Second - Time it takes for your code to execute
+			100ms = 0.1 seconds
+
+			multiply both
