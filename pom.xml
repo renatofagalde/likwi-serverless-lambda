@@ -32,6 +32,7 @@
         </dependency>
 
         <!--  The Log4j2 Setup START -->
+<!--
         <dependency>
             <groupId>org.apache.logging.log4j</groupId>
             <artifactId>log4j-api</artifactId>
@@ -47,7 +48,16 @@
             <artifactId>log4j-slf4j-impl</artifactId>
             <version>2.7</version>
         </dependency>
+-->
         <!--  The Log4j2 Setup END -->
+
+        <!-- Google GJSON Object START -->
+        <dependency>
+            <groupId>com.google.code.gson</groupId>
+            <artifactId>gson</artifactId>
+            <version>2.8.7</version>
+        </dependency>
+        <!-- Google GJSON Object END -->
 
     </dependencies>
     <build>
