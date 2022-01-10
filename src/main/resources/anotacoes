@@ -74,3 +74,6 @@ Pricing:
 			100ms = 0.1 seconds
 
 			multiply both
+
+installing SAM
+https://docs.aws.amazon.com/serverless-application-model/latest/developerguide/serverless-sam-cli-install-mac.html
